@@ -143,14 +143,14 @@ const botStart = async (ctx) => {
           db.collection('joinedUsers').insertOne({ userId: ctx.from.id, join: true })
           db.collection('balance').updateOne({ userId: pData[0].inviter }, { $set: { balance: see } }, { upsert: true })
           ctx.replyWithMarkdown(
-            `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/AirdropsAssociationChat) and [Channel](https://t.me/AirdropsAssociation)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://www.youtube.com/c/giveawaydetective)\n💠 Join *promoter* [group](https://t.me/GiveawayDetective) and [channel](https://t.me/GiveawayDetectiveCommunity)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
+            `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/Scriptearninges) and [Channel](https://t.me/ATTITUDEARNERS)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://youtube.com/channel/UCyBavYUKsl8ufvCwHvWTnlA)\n💠 Join *promoter* [group](https://t.me/technicalgabbar1) and [channel](https://t.me/technicalgabbarr)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
           )
         } else {
           db.collection('joinedUsers').insertOne({ userId: ctx.from.id, join: true })
 
 
           ctx.replyWithMarkdown(
-            `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/AirdropsAssociationChat) and [Channel](https://t.me/AirdropsAssociation)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://www.youtube.com/c/giveawaydetective)\n💠 Join *promoter* [group](https://t.me/GiveawayDetective) and [channel](https://t.me/GiveawayDetectiveCommunity)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
+            `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/Scriptearninges) and [Channel](https://t.me/ATTITUDEARNERS)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://youtube.com/channel/UCyBavYUKsl8ufvCwHvWTnlA)\n💠 Join *promoter* [group](https://t.me/technicalgabbar1) and [channel](https://t.me/technicalgabbarr)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
           )
         }
       } else {
@@ -258,7 +258,7 @@ bot.telegram.sendMessage(pData[0].inviter, '➕ *New Referral on your link* you 
             db.collection('balance').updateOne({ userId: pData[0].inviter }, { $set: { balance: see } }, { upsert: true })
 
             ctx.replyWithMarkdown(
-              `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/AirdropsAssociationChat) and [Channel](https://t.me/AirdropsAssociation)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://www.youtube.com/c/giveawaydetective)\n💠 Join *promoter* [group](https://t.me/GiveawayDetective) and [channel](https://t.me/GiveawayDetectiveCommunity)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
+              `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/Scriptearninges) and [Channel](https://t.me/ATTITUDEARNERS)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://youtube.com/channel/UCyBavYUKsl8ufvCwHvWTnlA)\n💠 Join *promoter* [group](https://t.me/technicalgabbar1) and [channel](https://t.me/technicalgabbarr)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
             )
 
           } else {
@@ -267,7 +267,7 @@ bot.telegram.sendMessage(pData[0].inviter, '➕ *New Referral on your link* you 
 
 
             ctx.replyWithMarkdown(
-              `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/AirdropsAssociationChat) and [Channel](https://t.me/AirdropsAssociation)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://www.youtube.com/c/giveawaydetective)\n💠 Join *promoter* [group](https://t.me/GiveawayDetective) and [channel](https://t.me/GiveawayDetectiveCommunity)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
+              `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/Scriptearninges) and [Channel](https://t.me/ATTITUDEARNERS)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://youtube.com/channel/UCyBavYUKsl8ufvCwHvWTnlA)\n💠 Join *promoter* [group](https://t.me/technicalgabbar1) and [channel](https://t.me/technicalgabbarr)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
             )
           }
         } else {
@@ -451,7 +451,7 @@ let val = dbData[0].value*1
 ctx.replyWithMarkdown(`*ZLF Airdrop is live*🔥
 
 -----------------------———-
-After successful 5 invite withdraw 1500 ZLF.`)
+After successful 5 invite withdraw 1500 USDT.`)
 }}
   catch (err) {
     sendError(err, ctx)
@@ -477,12 +477,12 @@ ctx.replyWithMarkdown(`🎁 Welcome to *`+airdropName+`* Airdrop Bot Balance\n\n
 
 bot.hears('📨 Information',async (ctx) => {
   
-  ctx.replyWithMarkdown('*Token Information:*\n\n*Name:* `Giveaway Detective`\n*Symbol:* `GDT`\nDecimale: `18`\n*Contract Address:* `0x4Ec7Ed581DdfB1E78EBae24bbF7ff3cBd28C592D`\n\n_If you submitted a wrong data then you can restart the bot and start resubmission by clicking /start before Token airdrop ends._')
+  ctx.replyWithMarkdown('*Token Information:*\n\n*Name:* `USDT`\n*Symbol:* `Usdt`\nDecimale: `18`\n*Contract Address:* `0x073412816DDeC201065a7d32F0eea3506301eBd4`\n\n_If you submitted a wrong data then you can restart the bot and start resubmission by clicking /start before Token airdrop ends._')
   })
 
 
 bot.hears('📘 Submit my details', ctx => {
-  var kkc = `🔹Join *`+airdropName+`* Telegram [Channel](https://t.me/AirdropsAssociation) And [Group](https://t.me/AirdropsAssociationChat) 
+  var kkc = `🔹Join *`+airdropName+`* Telegram [Channel](https://t.me/ATTITUDEARNERS) And [Group](https://t.me/Scriptearninges) 
 
 Click *"✅ Done"* After Joining`
   ctx.replyWithMarkdown(kkc, { disable_web_page_preview: true, reply_markup: { keyboard: [['✅ Done']], resize_keyboard: true } })
@@ -895,14 +895,14 @@ function rndInt(min, max){
 ⌛️ Distribution : 15th December
 
 📢  You Must Complete All The Below Tasks A Participant Of Bot.
-🔹 Join Cubic Drops Telegram</b> <a href="https://t.me/clickgonews">Channel</a><b>
-🔹 Join Cubic Drops Telegram</b> <a href="https://t.me/clickgonews">Group</a><b>
+🔹 Join Cubic Drops Telegram</b> <a href="https://t.me/ATTITUDEARNERS">Channel</a><b>
+🔹 Join Cubic Drops Telegram</b> <a href="https://t.me/ATTITUDEARNERS">Group</a><b>
 🔹 Follow Cubic Drops Twitter Like And Retweet The Pinned Post
 
 
 Complete All Above Tasks Then Click "Submit My Details"</b>`
 ctx.replyWithMarkdown(
-  `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/AirdropsAssociationChat) and [Channel](https://t.me/AirdropsAssociation)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://www.youtube.com/c/giveawaydetective)\n💠 Join *promoter* [group](https://t.me/GiveawayDetective) and [channel](https://t.me/GiveawayDetectiveCommunity)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
+  `*🎉 I am your friendly `+airdropName+` Airdropbot*\n\n*✅ Please complete all the tasks and submit details correctly to be eligible for the airdrop*\n\n💠 Join *`+airdropName+`* Telegram [Group](https://t.me/scriptearninges) and [Channel](https://t.me/ATTITUDEARNERS)\n💠 Follow *`+airdropName+`* on [Twitter](https://twitter.com/airdropoption), Like and Retweet pinned post\n💠 Subscribe to *`+airdropName+`* [Youtube](https://www.youtube.com/c/giveawaydetective)\n💠 Join *promoter* [group](https://t.me/technicalgabbar1) and [channel](https://t.me/technicalgabbarr)\n\n*ℹ️ You must complete all task then click "Submit My Details" button*`, { reply_markup: { keyboard: [['📘 Submit my details']], resize_keyboard: true } }
 )
         }
  
