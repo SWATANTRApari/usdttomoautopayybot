@@ -584,7 +584,7 @@ fbhandle.on('text', async (ctx) => {
 ctx.scene.leave();
 //await ctx.replyWithMarkdown(`*Submit your Matic polygon Address from Token Pocket or Trust Wallet*`, { disable_web_page_preview: true, reply_markup: { remove_keyboard: true } })
 
-await ctx.replyWithPhoto({ url: `https://telegra.ph/file/8cd7d3e360a2efdb6d6c5.jpg` }, { caption: "Submit your BEP20 address ( Not exchange)" })
+await ctx.replyWithPhoto({ url: `https://telegra.ph/file/58db735c949e8470abdff.jpg` }, { caption: "Submit your Usdt address ( Not exchange)" })
 
   ctx.scene.enter('twiterhandle');
 })
